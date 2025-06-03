@@ -5,7 +5,7 @@ const eventData = {
             id: 1,
             title: "Lakeside Camping at Pawna",
             category: "Travel & Adventure",
-            date: { month: "NOV", day: "25" },
+            date: { month: "NOV", day: "25-26" },
             time: "6:30 PM - 7:30 PM",
             location: "Adventure Geek - Explore the Unexplored",
             price: "NGN 1,400",
@@ -174,7 +174,7 @@ function createEventCard(event) {
         <div class="event-card fade-in" data-category="${event.type}" data-free="${event.free}">
             <div class="event-image">
                 <div class="event-category">${event.category}</div>
-                <button class="bookmark">❤️</button>
+                <button class="bookmark">☆</button>
             </div>
             <div class="event-content-wrapper">
                 <div class="event-date-section">
@@ -190,7 +190,7 @@ function createEventCard(event) {
                         <div class="event-time">${event.time}</div>
                         <div class="event-bottom-row">
                             <div class="event-price">${event.price}</div>
-                            <div class="event-engagement">👥 ${event.interested} interested</div>
+                            <div class="event-engagement">⭐ ${event.interested} interested</div>
                         </div>
                     </div>
                 </div>
